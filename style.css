@@ -1,0 +1,49 @@
+*, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+body #quote-box {
+  flex: 0 0 550px;
+  padding: 30px 40px 30px 40px;
+  border-radius: 3px;
+  background-color: white;
+}
+body #quote-box #quote-text #text {
+  font-size: 2em;
+  text-align: center;
+}
+body #quote-box #quote-text #author {
+  font-size: 1.2em;
+  text-align: right;
+  margin: 10px;
+}
+body #quote-box #buttons {
+  margin-top: 20px;
+}
+body #quote-box #buttons .button {
+  display: inline-block;
+  height: 37px;
+  padding: .5em;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 3px;
+  cursor: pointer;
+  border: 0px;
+}
+body #quote-box #buttons #tweet-quote, body #quote-box #buttons #tumblr-quote {
+  width: 37px;
+}
+body #quote-box #buttons #new-quote {
+  float: right;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,62 @@
+$primary-color: brown;
+
+*, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  //background-color: $primary-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  #quote-box {
+    flex: 0 0 550px;
+    padding: 30px 40px 30px 40px;
+    border-radius: 3px;
+    background-color: white;
+
+    #quote-text {
+      //color: $primary-color;
+
+      #text {
+        font-size: 2em;
+        text-align: center;
+      }
+
+      #author {
+        font-size: 1.2em;
+        text-align: right;
+        margin: 10px;
+      }
+    }
+
+    #buttons {
+      margin-top: 20px;
+
+      .button {
+        display: inline-block;
+        height: 37px;
+        padding: .5em;
+        //background-color: $primary-color;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 3px;
+        cursor: pointer;
+        border: 0px;
+      }
+
+      #tweet-quote, #tumblr-quote {
+        width: 37px;
+      }
+
+      #new-quote {
+        float: right;
+      }
+    }
+  }
+}
